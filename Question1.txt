@@ -1,0 +1,10 @@
+list1 = [1, 2, 2, 3, 4, 4]
+print("Original list:", list1)
+
+
+list1 = list(set(list1))
+
+
+list1.sort()
+
+print("Final list without duplicates:", list1)
